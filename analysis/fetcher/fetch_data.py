@@ -7,7 +7,7 @@ GITHUB_API = "https://api.github.com/users/{}"
 PER_PAGE = 100
 
 def _headers():
-    token = os.environ.get("GITHUB_TOKEN")
+    token = os.environ.get("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")
     if token:
         return {"Authorization": f"token {token}"}
     return {}
